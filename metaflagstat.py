@@ -13,7 +13,7 @@
 ## If you give it a bam file, and have samtools AND pysam installed, it'll use pysam (about 2x faster than samtools view -> python alone).
 ## If you give it a sam file, it'll just read the file.
 
-samtools = '/path/to/samtools view '	# don't forget 'view' and trailing space character! ('../samtools view ')
+samtools = '/path/to/samtools'
 
 
 ## JOHN:
